@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+	
+div.capas div#capa1 img, div.capas div#capa4 img{
+    width:380px; 
+    height:380px;	
+}
+
+div#capa1,div#capa2,div#capa3,div#capa4,div#capa5,div#capa6{
+    position:absolute; 
+    width:380px; 
+    height:380px; 
+} 
+
+div#capa1{ 		
+    left:250px;
+    top:350px;	
+	z-index:3; 
+ }
+
+
+ div#capa2{
+	 left:220px;
+	 top:320px;		
+	 z-index:2;  
+     background-color: white;  
+ } 
+
+ div#capa2:hover{ 
+    z-index:4;  
+ }
+
+ div#capa3 { 
+    left:190px; 
+	top:290px; 	
+	 z-index:1;
+     background-color:pink;
+	 }
+
+
+/*el segundo contenedor */
+
+
+div#capa4{ 		
+    right:250px;
+    top:350px;	
+	z-index:3; 
+ }
+
+ div#capa5{
+	 right:220px;
+	 top:320px;		
+	 z-index:2;  
+     background-color: white;               
+ } 
+ div#capa5:hover{ 
+    z-index:4;  
+ }
+
+ div#capa5 p{
+    margin: 10px;
+ }
+
+ div#capa6 { 
+    right:190px; 
+	top:290px; 
+	z-index:1;
+    background-color:pink;
+	
+}
+
+div#flex{
+    padding-top: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;   
+}
+
+div#flex div{
+  align-items: stretch;
+  width: 380px;
+  padding-bottom:20px ;
+  
+}
+
+div#flex div img{
+    background-color: pink;
+    padding: 10px;
+    width: 380px;
+    height: 380px;
+}
+
+div#capa2 p, div#capa5 p{
+    margin: 10%;
+    font-weight: bold;
+ }
+ 
+div.capas {
+    top:10px ;
+    left: 50px;
+    width: 50%;     
+}
+div.historias,div.historias2{
+    background-color:#ffe4ec;
+    position: absolute;
+    padding: 20px;
+}
+div.historias2{
+   top: 150px;
+   left: 200px;
+   right: 200px;
+}
+div.historias{
+
+    bottom:-300px;
+    left: 200px;
+   right: 200px;
+    
+}
